@@ -7,7 +7,7 @@ class Account {
 
 
     fun print() {
-        println("$acc_no :: $name :: $amount")
+        println("Account -> $acc_no :: $name :: $amount")
     }
 
     fun deposit() {
