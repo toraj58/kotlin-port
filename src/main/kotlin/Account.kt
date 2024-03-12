@@ -10,6 +10,10 @@ class Account {
         println("Account -> $acc_no :: $name :: $amount")
     }
 
+    fun print2() {
+        println("Test Print 2")
+    }
+
     fun deposit() {
         //deposite code
     }

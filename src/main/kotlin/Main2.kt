@@ -53,5 +53,27 @@ package org.example
 
         println("numberOfCharacters2 = $numberOfCharacters2")
 
+        val numbers = mutableListOf("one", "two", "three")
+
+        with(numbers) {
+            println("'with' is called with argument $this")
+            println("It contains $size elements")
+        }
+
+        val numbers2 = mutableListOf("one2", "two2", "three2")
+        val firstAndLast = with(numbers2) {
+            "> The first element is ${first()}," +
+                    " > the last element is ${last()}"
+        }
+        println(firstAndLast)
+
+
+        val user = User().also{ it.name = "too too"}
+
+        with(user) {
+            println(this.name)
+            println(this.age)
+
+        }
 
     }

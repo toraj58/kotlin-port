@@ -9,4 +9,14 @@ data class Teacher(var id: Int = 0, var name: String = "", var surname: String =
     fun print() {
         println("Teacher -> $id :: $name :: $surname ")
     }
+
+    fun print2() {
+        println("Teacher -> Print 2 ")
+    }
+
+    override fun toString(): String {
+        return "Teacher(id=$id, name='$name', surname='$surname')"
+    }
+
+
 }
