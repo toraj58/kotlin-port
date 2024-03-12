@@ -41,4 +41,17 @@ package org.example
 
         println(charactersInMessage)
 
+    //TIP Notice that we return a type R like let, making this a transformation function, but we take an implicit this, like apply.
+    // The difference, while subtle, becomes apparent with an example.
+
+        val message2 = StringBuilder()
+        val numberOfCharacters2 = message2.run {
+            append("test")
+            append("test2")
+            length
+        }
+
+        println("numberOfCharacters2 = $numberOfCharacters2")
+
+
     }
