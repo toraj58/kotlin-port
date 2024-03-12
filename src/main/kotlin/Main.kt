@@ -14,6 +14,7 @@ fun main() {
         println("i = $i")
 
     }
+
     val u = User()
     u.init()
 }
