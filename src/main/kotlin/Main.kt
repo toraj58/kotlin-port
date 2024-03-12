@@ -13,7 +13,7 @@ fun main() {
         // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
         println("i = $i")
 
-        val u = User()
-        u.init()
     }
+    val u = User()
+    u.init()
 }
