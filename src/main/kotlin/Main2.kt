@@ -76,4 +76,10 @@ package org.example
 
         }
 
+        val opt1 = (0..1000).random()
+        val opt2 = (0..1000).random()
+
+        println("opt1 -> $opt1")
+        println("opt2 -> $opt2")
+
     }
